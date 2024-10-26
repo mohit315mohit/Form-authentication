@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <form>
+                <label for="name">Username:</label>
+                <input type="text" id="name" name="name" placeholder="Choose a username">
+                <div class="error" id="errorName"></div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter a email">
+                <div class="error" id="errorEmail"></div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a strong password">
+                <div class="error" id="errorPassword"></div>
+                <label for="confirmPassword">Confirm password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter the password " >
+                <div class="error" id="errorPasswordConfirm"></div>
+                <button id="SignUp">Sign Up</button>
+                <div id="message"></div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
+</body>
+</html>

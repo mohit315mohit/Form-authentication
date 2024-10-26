@@ -1,0 +1,49 @@
+        .form-container {
+            width: 260px;
+            margin:auto;
+            padding: 20px;
+            border: 10px solid #f2efef;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            /* width: 200px; */
+            width: 100%;
+            /* margin:;                          */
+        }
+        label{
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        input{
+            padding: 5px 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            margin: 0px;
+            margin-bottom: 20px;
+
+        }
+        button{
+            margin: 10px 0px;
+            width: 100%;
+            padding: 5px;
+            background-color: blue;
+            color: white;
+        }
+        .error{
+            color: red;
+            font-size: 12px;
+        }
+        #message{
+            color: green;
+            font-size: 12px;
+            text-align: right;
+        }
+        
